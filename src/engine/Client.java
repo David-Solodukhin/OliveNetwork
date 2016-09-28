@@ -48,7 +48,7 @@ public class Client {
 		title = scanner.nextLine();
 		System.out.println("Searching for Lan Server...");
 		try {
-			conn = new Socket(InetAddress.getByName("10.0.0.2"), 2000);
+			conn = new Socket(InetAddress.getByName("10.0.0.41"), 2000);
 			System.out.println("Connected");
 		} catch (Exception e) {
 			System.out.println("ERROR, NO SERVER DETECTED. PLEASE RESTART APPLICATION AND SERVER");
